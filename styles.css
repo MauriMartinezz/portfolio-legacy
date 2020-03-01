@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "RobotoCustom";
+  src: url(./fonts/RobotoCondensed-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "RobotoCustom", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  background: url(./img/pattern.png) !important;
+}
+footer,
+#all {
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #ccc;
+  margin: 0px auto;
+  box-shadow: 0px 0px 5px gray;
+}
+/*****************HEADER****************/
+
+.active {
+  color: gainsboro;
+  background: rgb(19, 69, 134);
+  text-shadow: 1px 1px 1px grey;
+}
+
+header,
+footer {
+  /*background-color: rgb(73, 139, 163);*/
+
+  background: url(./img/c8b2f212cf9e453c70683e7329702c34.jpg);
+  padding: 15px;
+  padding-bottom: 0px;
+}
+#nombre {
+  color: whitesmoke;
+  text-align: center;
+}
+header > p {
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 1px;
+}
+#foto {
+  border-radius: 1050px;
+}
+#indice {
+  list-style: none;
+  text-align: center;
+}
+#indice li {
+  height: 40px;
+  border-radius: 40px;
+  transition: all 500ms;
+  cursor: pointer;
+  line-height: 40px;
+}
+#indice li a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+#indice li:hover {
+  color: gainsboro;
+  background: #134586;
+  text-shadow: 1px 1px 1px grey;
+}
+hr {
+  width: 90%;
+  margin: 0px auto;
+}
+.separacion {
+  width: 100%;
+}
+
+/**********Contenido*********/
+
+#container {
+  padding: 20px;
+}
+
+#index,
+#index {
+  margin-top: 20px;
+}
+#index article {
+  box-shadow: 0px 0px 3px grey;
+}
+#index #educacion,
+#index #experiencia,
+#index #objetive,
+#contacto,
+#bio-content {
+  width: 93%;
+  margin: 0px auto;
+  border: 1px solid gainsboro;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+#index h1 {
+  width: 100%;
+  font-size: 35px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#index #educacion h4,
+#index #experiencia h4 {
+  width: 100%;
+  font-size: medium;
+  margin: 0px auto;
+}
+p {
+  font-size: large;
+}
+#index ul {
+  margin-left: 25px;
+}
+span {
+  font-size: 22px;
+}
+/***********Aside************/
+aside {
+  min-height: 250px;
+  left: -35px;
+}
+aside h1 {
+  font-size: 30px;
+}
+aside #aptitudes,
+aside #complementos,
+aside #datos {
+  background-color: white;
+  border: 1px solid gainsboro;
+  box-shadow: 0px 0px 5px grey;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.datos-personales{
+    font-weight: bold;
+    font-size: medium;
+}
+aside #aptitudes,
+aside #complementos {
+  margin-top: 50px;
+}
+aside ul {
+  text-decoration: none;
+  list-style: none;
+}
+aside #aptitudes .progress {
+  height: 20px;
+}
+aside #aptitudes .progress span {
+  font-size: 15px;
+}
+
+#complementos ul li span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+footer {
+  color: white;
+  width: 100%;
+}
+footer ul {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+.fa-html5:before,
+.fa-css3-alt:before,
+.fa-bootstrap:before,
+.fa-js-square {
+  font-size: 25px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+/********Biografia**************/
+
+#bio-content {
+  width: 90%;
+  margin: 0px auto;
+  border: 1px solid gainsboro;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#strong {
+  font-weight: bolder;
+}
+#f-bio {
+  width: 100%;
+}
+
+/****Contacto******/
+
+#enviar {
+  background: #134586;
+  color: white;
+}
+#contacto {
+  width: 90%;
+  margin-top: 50px;
+}
+#inlineFormCustomSelectPref {
+  width: 43% !important;
+  margin-top: 32px !important;
+  margin-right: 10px !important;
+}
+#mensaje {
+  width: 93% !important;
+  margin: 0px auto !important;
+  margin-left: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+/*****Proyectos******/
+
+#proyectos {
+  margin: 0px auto;
+}
+.proyecto {
+  background-color: white;
+  margin: 20px;
+  min-height: 200px;
+  padding: 20px;
+  transition: 500 ease all;
+  box-shadow: 0px 0px 3px grey;
+  border-radius: 5px;
+}
+.proyecto h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.proyecto img {
+  display: flex;
+  width: 400px;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.proyecto .hide,
+.proyecto .hide1 {
+  display: none;
+}
+
+.proyecto:hover {
+  background-color: rgba(19, 69, 134, 0.5);
+  color: white;
+  cursor: pointer;
+  text-shadow: 0px 0px 3px grey;
+}
+.proyecto p {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.proyecto.activo {
+  background-color: rgba(19, 69, 134, 0.5);
+  color: white;
+  text-shadow: 0px 0px 3px grey;
+}
+
+.btn {
+  padding: 5px;
+  background: #134586 !important;
+  color: whitesmoke !important;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 990px) {
+  aside #aside,
+  #index #educacion,
+  #index #experiencia,
+  #index #objetive,
+  #contacto,
+  #bio-content {
+    width: 100% ;
+  }
+  h1{
+      font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+    nav #indice li a{
+        width: 100 !important;
+        margin-top: 15px;
+    }
+    #indice li:hover {
+        color: gainsboro;
+        background: #134586;
+        text-shadow: 1px 1px 1px grey;
+    }
+}
+@media screen and (max-width: 576px) {
+    footer{
+        justify-content: start;
+    }
+    footer li a{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .col.proyecto{
+        width: 50%;
+    }
+}
